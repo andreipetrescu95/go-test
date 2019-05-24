@@ -18,4 +18,4 @@ jobs:
       - run:
           name: Add hosts entry
           command: |
-            echo 3.120.9.41 api.k8s.otter.internal | sudo tee -a /etc/hosts
+            echo 3.120.9.41 api.k8s.otter.internal | tee -a /etc/hosts
